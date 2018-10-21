@@ -1,0 +1,49 @@
+body {
+    background-image: url("disneycopy.png");
+}
+
+
+h1 {
+    color: blue;
+    font-family: 'WaltographRegular'; 
+    font-weight: normal ; 
+    font-style: normal; 
+    font-size: 100px; 
+    
+}
+
+.container {
+    background-color: orange;
+    width: 800px;
+    height: 1000px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 0%;
+    transform: tranlate (-50%, -50%);
+    z-index: -1;
+    
+    
+}   
+
+.button {
+    background-color: purple;
+    color: orange;
+    padding: 20px 40px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    border-radius: 5px;
+    outline-color: blue;
+    position: center;
+    margin: 50px;
+}
+
+.button:hover {
+    background-color: magenta;
+    color: purple;
+}
+
+
